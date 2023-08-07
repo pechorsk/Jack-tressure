@@ -3,7 +3,7 @@ workflows:
     name: Unity iOS Workflow
     max_build_duration: 120
     integrations:
-      app_store_connect: SlotsWinKey
+      app_store_connect: "Corp 3"
     environment:
       xcode: 14.2
       ios_signing:
