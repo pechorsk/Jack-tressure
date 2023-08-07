@@ -78,7 +78,7 @@
 		D97854132A73D25B00C585C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D97854182A73D69500C585C9 /* projectWithModule.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = projectWithModule.entitlements; sourceTree = "<group>"; };
 		D98263F82A7D154C000584D9 /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = codemagic.yaml; path = ../codemagic.yaml; sourceTree = "<group>"; };
-		D98625042A72D197003881AF /* GoldenSlots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoldenSlots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98625042A72D197003881AF /* Target.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Target.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98625072A72D197003881AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D98625102A72D198003881AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D98625152A72D198003881AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		D98625052A72D197003881AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D98625042A72D197003881AF /* GoldenSlots.app */,
+				D98625042A72D197003881AF /* Target.app */,
 				D997E3C12A73FDC5009E9914 /* OneSignalNotificationServiceExtension.appex */,
 			);
 			name = Products;
@@ -183,9 +183,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D98625032A72D197003881AF /* GoldenSlots */ = {
+		D98625032A72D197003881AF /* Target */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D98625182A72D198003881AF /* Build configuration list for PBXNativeTarget "GoldenSlots" */;
+			buildConfigurationList = D98625182A72D198003881AF /* Build configuration list for PBXNativeTarget "Target" */;
 			buildPhases = (
 				D98625002A72D197003881AF /* Sources */,
 				D98625012A72D197003881AF /* Frameworks */,
@@ -199,7 +199,7 @@
 			dependencies = (
 				D997E3C72A73FDC5009E9914 /* PBXTargetDependency */,
 			);
-			name = GoldenSlots;
+			name = Target;
 			packageProductDependencies = (
 				D97854002A73BF9800C585C9 /* AppsFlyerLib */,
 				D97854032A73BFEC00C585C9 /* FacebookCore */,
@@ -213,7 +213,7 @@
 				D98263F62A7D148D000584D9 /* OneSignalExtension */,
 			);
 			productName = projectWithModule;
-			productReference = D98625042A72D197003881AF /* GoldenSlots.app */;
+			productReference = D98625042A72D197003881AF /* Target.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D997E3C02A73FDC5009E9914 /* OneSignalNotificationServiceExtension */ = {
@@ -275,7 +275,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D98625032A72D197003881AF /* GoldenSlots */,
+				D98625032A72D197003881AF /* Target */,
 				D997E3C02A73FDC5009E9914 /* OneSignalNotificationServiceExtension */,
 			);
 		};
@@ -639,7 +639,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D98625182A72D198003881AF /* Build configuration list for PBXNativeTarget "GoldenSlots" */ = {
+		D98625182A72D198003881AF /* Build configuration list for PBXNativeTarget "Target" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D98625192A72D198003881AF /* Debug */,

@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D98625032A72D197003881AF"
-               BuildableName = "GoldenSlots.app"
-               BlueprintName = "GoldenSlots"
+               BuildableName = "Target.app"
+               BlueprintName = "Target"
                ReferencedContainer = "container:projectWithModule.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D98625032A72D197003881AF"
-            BuildableName = "GoldenSlots.app"
-            BlueprintName = "GoldenSlots"
+            BuildableName = "Target.app"
+            BlueprintName = "Target"
             ReferencedContainer = "container:projectWithModule.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D98625032A72D197003881AF"
-            BuildableName = "GoldenSlots.app"
-            BlueprintName = "GoldenSlots"
+            BuildableName = "Target.app"
+            BlueprintName = "Target"
             ReferencedContainer = "container:projectWithModule.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
