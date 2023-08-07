@@ -1,0 +1,45 @@
+workflows:
+  unity-ios-workflow:
+    name: Unity iOS Workflow
+    max_build_duration: 120
+    integrations:
+      app_store_connect: SlotsWinKey
+    environment:
+      xcode: 14.2
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.zeefun.goldenslots
+      groups:
+        - DEFAULT
+
+      vars:
+        XCODE_PROJECT: "Workplace.xcworkspace"
+        XCODE_SCHEME: "projectWithModule"
+
+    scripts:
+      - name: Delete derived data
+        script: rm -rf ~/Library/Developer/Xcode/DerivedData
+      
+      - name: Set up code signing settings on Xcode project
+        script: |
+          xcode-project use-profiles
+      
+      - name: Build ipa for distribution
+        script: |
+          xcode-project build-ipa \
+            --workspace "$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME" \
+            --archive-xcargs "CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM=ZQ8C475MSJ"
+    
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+
+    publishing:
+      app_store_connect:
+        api_key: ${$APP_STORE_CONNECT_PRIVATE_KEY}
+        key_id: $APP_STORE_CONNECT_KEY_IDENTIFIER
+        issuer_id: $APP_STORE_CONNECT_ISSUER_ID
+        submit_to_testflight: true
+        expire_build_submitted_for_review: true
+        
