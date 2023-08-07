@@ -21,7 +21,7 @@ workflows:
         script: rm -rf ~/Library/Developer/Xcode/DerivedData
       
       - name: Increment build number
-        script: agvtool new-version -all $BUILD_NUMBER
+        script: cd projectWithModule/; agvtool new-version -all $BUILD_NUMBER
       
       - name: Set up code signing settings on Xcode project
         script: |
