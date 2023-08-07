@@ -6,9 +6,6 @@ workflows:
       app_store_connect: "Corp 3"
     environment:
       xcode: 14.2
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.zeefun.goldenslots
       groups:
         - DEFAULT
 
@@ -23,16 +20,28 @@ workflows:
       - name: Increment build number
         script: cd projectWithModule/; agvtool new-version -all $BUILD_NUMBER
       
-      - name: Set up code signing settings on Xcode project
+      - name: Set up keychain to be used for code signing using Codemagic CLI 'keychain' command
+        script: keychain initialize
+        
+      - name: Fetch signing files
         script: |
-          xcode-project use-profiles
+          echo $BUNDLE_ID
+          app-store-connect fetch-signing-files "$BUNDLE_ID" \
+            --type IOS_APP_STORE \
+            --create
+            
+      - name: Set up signing certificate
+        script: keychain add-certificates
+        
+      - name: Set up code signing settings on Xcode project
+        script: xcode-project use-profiles
       
       - name: Build ipa for distribution
         script: |
           xcode-project build-ipa \
             --workspace "$XCODE_PROJECT" \
             --scheme "$XCODE_SCHEME" \
-            --archive-xcargs "CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM=ZQ8C475MSJ"
+            --archive-xcargs "CODE_SIGN_STYLE=Auto"
             
       - name: Build ipa for distribution
         script: |
