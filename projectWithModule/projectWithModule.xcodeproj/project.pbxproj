@@ -496,7 +496,7 @@
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "to access your location.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "to access your location.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for uploading audio";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "to import, edit and save photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Select \"Allow\" for better experience. The app uses camera to capture photos and videos, for support.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "to import, edit and save photo";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "May we use your data? It helps enhance your experience in our app and optimize ad delivery across various platforms. Importantly, we do not associate this data with your identity and do not store it.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -544,7 +544,7 @@
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "to access your location.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "to access your location.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need microphone access for uploading audio";
-				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "to import, edit and save photo";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Select \"Allow\" for better experience. The app uses camera to capture photos and videos, for support.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "to import, edit and save photo";
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "May we use your data? It helps enhance your experience in our app and optimize ad delivery across various platforms. Importantly, we do not associate this data with your identity and do not store it.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

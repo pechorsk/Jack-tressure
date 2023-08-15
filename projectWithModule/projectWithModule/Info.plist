@@ -19,7 +19,6 @@
 	<string>2f71cbe39e8228ba04481acb8875c400</string>
 	<key>UIBackgroundModes</key>
 	<array>
-		<string>bluetooth-peripheral</string>
 		<string>remote-notification</string>
 	</array>
 </dict>
