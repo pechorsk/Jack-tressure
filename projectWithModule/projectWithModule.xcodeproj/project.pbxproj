@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D90D02872A8CE7AB00199DA8 /* LAModule in Frameworks */ = {isa = PBXBuildFile; productRef = D90D02862A8CE7AB00199DA8 /* LAModule */; };
 		D90D02892A8CE80C00199DA8 /* LAUnity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D02882A8CE80C00199DA8 /* LAUnity.swift */; };
-		D90D028B2A8CF77D00199DA8 /* LAModule in Frameworks */ = {isa = PBXBuildFile; productRef = D90D028A2A8CF77D00199DA8 /* LAModule */; };
 		D90D028C2A8CF78300199DA8 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D978540F2A73D10A00C585C9 /* Photos.framework */; };
 		D92C45EA2A7BD6C70036955B /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D92C45E92A7BD6C70036955B /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D92C45EC2A7BD9430036955B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92C45EB2A7BD9430036955B /* LaunchScreen.storyboard */; };
 		D97854102A73D10A00C585C9 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D978540F2A73D10A00C585C9 /* Photos.framework */; };
 		D97854122A73D10F00C585C9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97854112A73D10F00C585C9 /* Security.framework */; };
 		D97854142A73D25B00C585C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D97854132A73D25B00C585C9 /* GoogleService-Info.plist */; };
+		D97C48D62A8D224D001F404D /* LAModule in Frameworks */ = {isa = PBXBuildFile; productRef = D97C48D52A8D224D001F404D /* LAModule */; };
+		D97C48D82A8D225E001F404D /* LAModule in Frameworks */ = {isa = PBXBuildFile; productRef = D97C48D72A8D225E001F404D /* LAModule */; };
 		D98625082A72D197003881AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98625072A72D197003881AF /* AppDelegate.swift */; };
 		D98625112A72D198003881AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98625102A72D198003881AF /* Assets.xcassets */; };
 		D997E3C42A73FDC5009E9914 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997E3C32A73FDC5009E9914 /* NotificationService.swift */; };
@@ -82,7 +82,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D97854122A73D10F00C585C9 /* Security.framework in Frameworks */,
-				D90D02872A8CE7AB00199DA8 /* LAModule in Frameworks */,
+				D97C48D62A8D224D001F404D /* LAModule in Frameworks */,
 				D97854102A73D10A00C585C9 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,8 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D90D028B2A8CF77D00199DA8 /* LAModule in Frameworks */,
 				D90D028C2A8CF78300199DA8 /* Photos.framework in Frameworks */,
+				D97C48D82A8D225E001F404D /* LAModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +174,7 @@
 			);
 			name = Target;
 			packageProductDependencies = (
-				D90D02862A8CE7AB00199DA8 /* LAModule */,
+				D97C48D52A8D224D001F404D /* LAModule */,
 			);
 			productName = projectWithModule;
 			productReference = D98625042A72D197003881AF /* Target.app */;
@@ -194,7 +194,7 @@
 			);
 			name = OneSignalNotificationServiceExtension;
 			packageProductDependencies = (
-				D90D028A2A8CF77D00199DA8 /* LAModule */,
+				D97C48D72A8D225E001F404D /* LAModule */,
 			);
 			productName = OneSignalNotificationServiceExtension;
 			productReference = D997E3C12A73FDC5009E9914 /* OneSignalNotificationServiceExtension.appex */;
@@ -228,7 +228,7 @@
 			);
 			mainGroup = D98624FB2A72D197003881AF;
 			packageReferences = (
-				D90D02852A8CE7AB00199DA8 /* XCRemoteSwiftPackageReference "LAModule" */,
+				D97C48D42A8D224D001F404D /* XCRemoteSwiftPackageReference "LAModule" */,
 			);
 			productRefGroup = D98625052A72D197003881AF /* Products */;
 			projectDirPath = "";
@@ -446,7 +446,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = projectWithModule/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lucky Slots";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fortune Spin Slots";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Select \"Allow\" for better experience. The app uses camera to capture photos and videos, for support.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "to access your location.";
@@ -494,7 +494,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = projectWithModule/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lucky Slots";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fortune Spin Slots";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Select \"Allow\" for better experience. The app uses camera to capture photos and videos, for support.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "to access your location.";
@@ -616,7 +616,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D90D02852A8CE7AB00199DA8 /* XCRemoteSwiftPackageReference "LAModule" */ = {
+		D97C48D42A8D224D001F404D /* XCRemoteSwiftPackageReference "LAModule" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/lizarge/LAModule.git";
 			requirement = {
@@ -627,14 +627,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D90D02862A8CE7AB00199DA8 /* LAModule */ = {
+		D97C48D52A8D224D001F404D /* LAModule */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D90D02852A8CE7AB00199DA8 /* XCRemoteSwiftPackageReference "LAModule" */;
+			package = D97C48D42A8D224D001F404D /* XCRemoteSwiftPackageReference "LAModule" */;
 			productName = LAModule;
 		};
-		D90D028A2A8CF77D00199DA8 /* LAModule */ = {
+		D97C48D72A8D225E001F404D /* LAModule */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D90D02852A8CE7AB00199DA8 /* XCRemoteSwiftPackageReference "LAModule" */;
+			package = D97C48D42A8D224D001F404D /* XCRemoteSwiftPackageReference "LAModule" */;
 			productName = LAModule;
 		};
 /* End XCSwiftPackageProductDependency section */

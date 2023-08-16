@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.group.globo.sloto.pop</string>
+		<string>group.globo.sloto.pop</string>
 	</array>
 </dict>
 </plist>

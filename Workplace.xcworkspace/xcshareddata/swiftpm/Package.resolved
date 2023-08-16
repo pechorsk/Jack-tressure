@@ -96,7 +96,7 @@
       "location" : "https://github.com/lizarge/LAModule.git",
       "state" : {
         "branch" : "main",
-        "revision" : "bcc1d166ac84658dec5d033d68fffb64af51bafb"
+        "revision" : "14397e93843d9d02118b7b2506590be46f82436f"
       }
     },
     {
@@ -123,7 +123,7 @@
       "location" : "https://github.com/lizarge/OneSignal-iOS-SDK_RKModule.git",
       "state" : {
         "branch" : "master",
-        "revision" : "63dac31759bf163f240828131fa015119605f63b"
+        "revision" : "64169fe161e3598894a703ad2e527eef9b9fd809"
       }
     },
     {
