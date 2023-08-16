@@ -46,7 +46,7 @@ extension AppDelegate:LAConfigurationKeysProtocol  {
     func DontForgetIncludeFBKeysInInfo() -> LAModule.LAConfigurationKeys {
         return LAModule.LAConfigurationKeys(
             appsFlyerDevKey: "hxEiGXhSZtjMoyqM8R566T",
-            appleAppID: "",
+            appleAppID: "6462151747",
             oneSignalAppId: "3f4154df-8be4-4066-9871-99c29cb1be21",
             tikTokKeys: (TTAppId: "989222735538623", TTAppSecret: "2f71cbe39e8228ba04481acb8875c400"),
             remoteConfigKeys: (remoteTargetKey: "settingsKey", remoteLKey: "L")
