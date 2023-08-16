@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "SST-Midjourney_7_slot_machine_in_the_style_of_flawless_line_wor_12105b07-8e0b-4b35-b9fc-4cf76aa3860f.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

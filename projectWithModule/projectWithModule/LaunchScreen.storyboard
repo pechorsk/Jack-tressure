@@ -15,8 +15,19 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SST-Midjourney_7_slot_machine_in_the_style_of_flawless_line_wor_12105b07-8e0b-4b35-b9fc-4cf76aa3860f" translatesAutoresizingMaskIntoConstraints="NO" id="51g-P7-zNR">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="51g-P7-zNR" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GXP-xh-muR"/>
+                            <constraint firstItem="51g-P7-zNR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="J5q-06-CXf"/>
+                            <constraint firstItem="51g-P7-zNR" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="J9t-lR-4uf"/>
+                            <constraint firstAttribute="bottom" secondItem="51g-P7-zNR" secondAttribute="bottom" id="klJ-x7-czf"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +35,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SST-Midjourney_7_slot_machine_in_the_style_of_flawless_line_wor_12105b07-8e0b-4b35-b9fc-4cf76aa3860f" width="1024" height="1024"/>
+    </resources>
 </document>

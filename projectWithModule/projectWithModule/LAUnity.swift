@@ -6,11 +6,13 @@
 //
 
 import Foundation
+import UIKit
+
 import UnityFramework
 
-class Unity: UIResponder, UIApplicationDelegate {
+public class LAUnity: UIResponder, UIApplicationDelegate {
 
-    static let shared = Unity()
+    static let shared = LAUnity()
 
     private let dataBundleId: String = "com.unity3d.framework"
     private let frameworkPath: String = "/Frameworks/UnityFramework.framework"
@@ -22,22 +24,23 @@ class Unity: UIResponder, UIApplicationDelegate {
         ufw?.appController() != nil
     }
 
-    func show() {
+    public func show(in hostMainWindow: UIWindow?) {
+        self.setHostMainWindow(hostMainWindow)
         if isInitialized {
             showWindow()
         } else {
             initWindow()
         }
     }
-
-    func setHostMainWindow(_ hostMainWindow: UIWindow?) {
-        self.hostMainWindow = hostMainWindow
-    }
     
-    func hide() {
+    public func hide() {
         ufw?.unloadApplication()
     }
 
+    private func setHostMainWindow(_ hostMainWindow: UIWindow?) {
+        self.hostMainWindow = hostMainWindow
+    }
+   
     private func initWindow() {
         if isInitialized {
             showWindow()
@@ -88,13 +91,14 @@ class Unity: UIResponder, UIApplicationDelegate {
         }
         return ufw
     }
+    
 }
 
-extension Unity: UnityFrameworkListener {
-
-    func unityDidUnload(_ notification: Notification!) {
+extension LAUnity: UnityFrameworkListener {
+    public func unityDidUnload(_ notification: Notification!) {
         ufw?.unregisterFrameworkListener(self)
         ufw = nil
         hostMainWindow?.makeKeyAndVisible()
     }
 }
+

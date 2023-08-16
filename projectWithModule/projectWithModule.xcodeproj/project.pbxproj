@@ -7,31 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90D02872A8CE7AB00199DA8 /* LAModule in Frameworks */ = {isa = PBXBuildFile; productRef = D90D02862A8CE7AB00199DA8 /* LAModule */; };
+		D90D02892A8CE80C00199DA8 /* LAUnity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D02882A8CE80C00199DA8 /* LAUnity.swift */; };
+		D90D028B2A8CF77D00199DA8 /* LAModule in Frameworks */ = {isa = PBXBuildFile; productRef = D90D028A2A8CF77D00199DA8 /* LAModule */; };
+		D90D028C2A8CF78300199DA8 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D978540F2A73D10A00C585C9 /* Photos.framework */; };
 		D92C45EA2A7BD6C70036955B /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D92C45E92A7BD6C70036955B /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D92C45EC2A7BD9430036955B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92C45EB2A7BD9430036955B /* LaunchScreen.storyboard */; };
-		D97854012A73BF9800C585C9 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = D97854002A73BF9800C585C9 /* AppsFlyerLib */; };
-		D97854042A73BFEC00C585C9 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = D97854032A73BFEC00C585C9 /* FacebookCore */; };
-		D97854082A73C99C00C585C9 /* LAModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97854072A73C99C00C585C9 /* LAModule.swift */; };
 		D97854102A73D10A00C585C9 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D978540F2A73D10A00C585C9 /* Photos.framework */; };
 		D97854122A73D10F00C585C9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97854112A73D10F00C585C9 /* Security.framework */; };
 		D97854142A73D25B00C585C9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D97854132A73D25B00C585C9 /* GoogleService-Info.plist */; };
-		D97854172A73D39400C585C9 /* TikTokOpenSDK in Frameworks */ = {isa = PBXBuildFile; productRef = D97854162A73D39400C585C9 /* TikTokOpenSDK */; };
-		D98263F52A7D148D000584D9 /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = D98263F42A7D148D000584D9 /* OneSignal */; };
-		D98263F72A7D148D000584D9 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = D98263F62A7D148D000584D9 /* OneSignalExtension */; };
-		D98263FA2A7D1607000584D9 /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = D98263F92A7D1607000584D9 /* OneSignal */; };
-		D98263FC2A7D1607000584D9 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = D98263FB2A7D1607000584D9 /* OneSignalExtension */; };
 		D98625082A72D197003881AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98625072A72D197003881AF /* AppDelegate.swift */; };
 		D98625112A72D198003881AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D98625102A72D198003881AF /* Assets.xcassets */; };
-		D98625372A73B333003881AF /* Unity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98625362A73B333003881AF /* Unity.swift */; };
 		D997E3C42A73FDC5009E9914 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D997E3C32A73FDC5009E9914 /* NotificationService.swift */; };
 		D997E3C82A73FDC5009E9914 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D997E3C12A73FDC5009E9914 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D99C11D92A7BADEB0062D7C3 /* PreloadrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99C11D72A7BADEB0062D7C3 /* PreloadrViewController.swift */; };
-		D99C11DA2A7BADEB0062D7C3 /* PreloadrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D99C11D82A7BADEB0062D7C3 /* PreloadrViewController.xib */; };
-		D9B0B25C2A78ECDF0056E862 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D9B0B25B2A78ECDF0056E862 /* FirebaseAnalytics */; };
-		D9B0B25E2A78ECDF0056E862 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D9B0B25D2A78ECDF0056E862 /* FirebaseAnalyticsSwift */; };
-		D9B0B2602A78ECDF0056E862 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = D9B0B25F2A78ECDF0056E862 /* FirebaseCrashlytics */; };
-		D9B0B2622A78ECDF0056E862 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = D9B0B2612A78ECDF0056E862 /* FirebaseRemoteConfig */; };
-		D9B0B2642A78ECDF0056E862 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D9B0B2632A78ECDF0056E862 /* FirebaseRemoteConfigSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,9 +58,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D90D02882A8CE80C00199DA8 /* LAUnity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LAUnity.swift; sourceTree = "<group>"; };
 		D92C45E92A7BD6C70036955B /* UnityFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = "<group>"; };
 		D92C45EB2A7BD9430036955B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D97854072A73C99C00C585C9 /* LAModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAModule.swift; sourceTree = "<group>"; };
 		D978540F2A73D10A00C585C9 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		D97854112A73D10F00C585C9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		D97854132A73D25B00C585C9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -82,13 +70,10 @@
 		D98625072A72D197003881AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D98625102A72D198003881AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D98625152A72D198003881AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D98625362A73B333003881AF /* Unity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unity.swift; sourceTree = "<group>"; };
 		D997E3C12A73FDC5009E9914 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D997E3C32A73FDC5009E9914 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		D997E3C52A73FDC5009E9914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D997E3CD2A73FF43009E9914 /* OneSignalNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OneSignalNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
-		D99C11D72A7BADEB0062D7C3 /* PreloadrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreloadrViewController.swift; sourceTree = "<group>"; };
-		D99C11D82A7BADEB0062D7C3 /* PreloadrViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreloadrViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,18 +81,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D97854012A73BF9800C585C9 /* AppsFlyerLib in Frameworks */,
-				D9B0B2622A78ECDF0056E862 /* FirebaseRemoteConfig in Frameworks */,
 				D97854122A73D10F00C585C9 /* Security.framework in Frameworks */,
-				D9B0B25E2A78ECDF0056E862 /* FirebaseAnalyticsSwift in Frameworks */,
-				D98263F52A7D148D000584D9 /* OneSignal in Frameworks */,
-				D9B0B2602A78ECDF0056E862 /* FirebaseCrashlytics in Frameworks */,
+				D90D02872A8CE7AB00199DA8 /* LAModule in Frameworks */,
 				D97854102A73D10A00C585C9 /* Photos.framework in Frameworks */,
-				D97854172A73D39400C585C9 /* TikTokOpenSDK in Frameworks */,
-				D97854042A73BFEC00C585C9 /* FacebookCore in Frameworks */,
-				D9B0B25C2A78ECDF0056E862 /* FirebaseAnalytics in Frameworks */,
-				D9B0B2642A78ECDF0056E862 /* FirebaseRemoteConfigSwift in Frameworks */,
-				D98263F72A7D148D000584D9 /* OneSignalExtension in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,8 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D98263FA2A7D1607000584D9 /* OneSignal in Frameworks */,
-				D98263FC2A7D1607000584D9 /* OneSignalExtension in Frameworks */,
+				D90D028B2A8CF77D00199DA8 /* LAModule in Frameworks */,
+				D90D028C2A8CF78300199DA8 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,15 +124,12 @@
 			isa = PBXGroup;
 			children = (
 				D97854182A73D69500C585C9 /* projectWithModule.entitlements */,
-				D98625362A73B333003881AF /* Unity.swift */,
 				D98625072A72D197003881AF /* AppDelegate.swift */,
-				D97854072A73C99C00C585C9 /* LAModule.swift */,
+				D90D02882A8CE80C00199DA8 /* LAUnity.swift */,
 				D97854132A73D25B00C585C9 /* GoogleService-Info.plist */,
 				D92C45EB2A7BD9430036955B /* LaunchScreen.storyboard */,
 				D98625102A72D198003881AF /* Assets.xcassets */,
 				D98625152A72D198003881AF /* Info.plist */,
-				D99C11D72A7BADEB0062D7C3 /* PreloadrViewController.swift */,
-				D99C11D82A7BADEB0062D7C3 /* PreloadrViewController.xib */,
 			);
 			path = projectWithModule;
 			sourceTree = "<group>";
@@ -201,16 +174,7 @@
 			);
 			name = Target;
 			packageProductDependencies = (
-				D97854002A73BF9800C585C9 /* AppsFlyerLib */,
-				D97854032A73BFEC00C585C9 /* FacebookCore */,
-				D97854162A73D39400C585C9 /* TikTokOpenSDK */,
-				D9B0B25B2A78ECDF0056E862 /* FirebaseAnalytics */,
-				D9B0B25D2A78ECDF0056E862 /* FirebaseAnalyticsSwift */,
-				D9B0B25F2A78ECDF0056E862 /* FirebaseCrashlytics */,
-				D9B0B2612A78ECDF0056E862 /* FirebaseRemoteConfig */,
-				D9B0B2632A78ECDF0056E862 /* FirebaseRemoteConfigSwift */,
-				D98263F42A7D148D000584D9 /* OneSignal */,
-				D98263F62A7D148D000584D9 /* OneSignalExtension */,
+				D90D02862A8CE7AB00199DA8 /* LAModule */,
 			);
 			productName = projectWithModule;
 			productReference = D98625042A72D197003881AF /* Target.app */;
@@ -230,8 +194,7 @@
 			);
 			name = OneSignalNotificationServiceExtension;
 			packageProductDependencies = (
-				D98263F92A7D1607000584D9 /* OneSignal */,
-				D98263FB2A7D1607000584D9 /* OneSignalExtension */,
+				D90D028A2A8CF77D00199DA8 /* LAModule */,
 			);
 			productName = OneSignalNotificationServiceExtension;
 			productReference = D997E3C12A73FDC5009E9914 /* OneSignalNotificationServiceExtension.appex */;
@@ -265,11 +228,7 @@
 			);
 			mainGroup = D98624FB2A72D197003881AF;
 			packageReferences = (
-				D97853FF2A73BF9800C585C9 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
-				D97854022A73BFEC00C585C9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
-				D97854152A73D39300C585C9 /* XCRemoteSwiftPackageReference "TikTokOpenSDK" */,
-				D9B0B25A2A78ECDF0056E862 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				D98263F32A7D148D000584D9 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK_RKModule" */,
+				D90D02852A8CE7AB00199DA8 /* XCRemoteSwiftPackageReference "LAModule" */,
 			);
 			productRefGroup = D98625052A72D197003881AF /* Products */;
 			projectDirPath = "";
@@ -289,7 +248,6 @@
 				D98625112A72D198003881AF /* Assets.xcassets in Resources */,
 				D92C45EC2A7BD9430036955B /* LaunchScreen.storyboard in Resources */,
 				D97854142A73D25B00C585C9 /* GoogleService-Info.plist in Resources */,
-				D99C11DA2A7BADEB0062D7C3 /* PreloadrViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,10 +290,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90D02892A8CE80C00199DA8 /* LAUnity.swift in Sources */,
 				D98625082A72D197003881AF /* AppDelegate.swift in Sources */,
-				D97854082A73C99C00C585C9 /* LAModule.swift in Sources */,
-				D98625372A73B333003881AF /* Unity.swift in Sources */,
-				D99C11D92A7BADEB0062D7C3 /* PreloadrViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +446,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = projectWithModule/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lucky Slots";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Select \"Allow\" for better experience. The app uses camera to capture photos and videos, for support.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "to access your location.";
@@ -509,7 +465,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zeefun.goldenslots;
+				PRODUCT_BUNDLE_IDENTIFIER = group.globo.sloto.pop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -538,7 +494,7 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = projectWithModule/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lucky Slots";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Select \"Allow\" for better experience. The app uses camera to capture photos and videos, for support.";
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "to access your location.";
@@ -557,7 +513,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zeefun.goldenslots;
+				PRODUCT_BUNDLE_IDENTIFIER = group.globo.sloto.pop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -588,7 +544,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zeefun.goldenslots.OneSignalNotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = globo.sloto.pop.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -617,7 +573,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zeefun.goldenslots.OneSignalNotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = globo.sloto.pop.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -660,108 +616,26 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D97853FF2A73BF9800C585C9 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+		D90D02852A8CE7AB00199DA8 /* XCRemoteSwiftPackageReference "LAModule" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			repositoryURL = "https://github.com/lizarge/LAModule.git";
 			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 6.9.0;
-			};
-		};
-		D97854022A73BFEC00C585C9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 9.0.0;
-			};
-		};
-		D97854152A73D39300C585C9 /* XCRemoteSwiftPackageReference "TikTokOpenSDK" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/qasim/TikTokOpenSDK.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-		D98263F32A7D148D000584D9 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK_RKModule" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/lizarge/OneSignal-iOS-SDK_RKModule";
-			requirement = {
-				branch = 1.13;
+				branch = main;
 				kind = branch;
-			};
-		};
-		D9B0B25A2A78ECDF0056E862 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 9.6.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D97854002A73BF9800C585C9 /* AppsFlyerLib */ = {
+		D90D02862A8CE7AB00199DA8 /* LAModule */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D97853FF2A73BF9800C585C9 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
-			productName = AppsFlyerLib;
+			package = D90D02852A8CE7AB00199DA8 /* XCRemoteSwiftPackageReference "LAModule" */;
+			productName = LAModule;
 		};
-		D97854032A73BFEC00C585C9 /* FacebookCore */ = {
+		D90D028A2A8CF77D00199DA8 /* LAModule */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D97854022A73BFEC00C585C9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
-			productName = FacebookCore;
-		};
-		D97854162A73D39400C585C9 /* TikTokOpenSDK */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D97854152A73D39300C585C9 /* XCRemoteSwiftPackageReference "TikTokOpenSDK" */;
-			productName = TikTokOpenSDK;
-		};
-		D98263F42A7D148D000584D9 /* OneSignal */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D98263F32A7D148D000584D9 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK_RKModule" */;
-			productName = OneSignal;
-		};
-		D98263F62A7D148D000584D9 /* OneSignalExtension */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D98263F32A7D148D000584D9 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK_RKModule" */;
-			productName = OneSignalExtension;
-		};
-		D98263F92A7D1607000584D9 /* OneSignal */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D98263F32A7D148D000584D9 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK_RKModule" */;
-			productName = OneSignal;
-		};
-		D98263FB2A7D1607000584D9 /* OneSignalExtension */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D98263F32A7D148D000584D9 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK_RKModule" */;
-			productName = OneSignalExtension;
-		};
-		D9B0B25B2A78ECDF0056E862 /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D9B0B25A2A78ECDF0056E862 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		D9B0B25D2A78ECDF0056E862 /* FirebaseAnalyticsSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D9B0B25A2A78ECDF0056E862 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsSwift;
-		};
-		D9B0B25F2A78ECDF0056E862 /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D9B0B25A2A78ECDF0056E862 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
-		};
-		D9B0B2612A78ECDF0056E862 /* FirebaseRemoteConfig */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D9B0B25A2A78ECDF0056E862 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseRemoteConfig;
-		};
-		D9B0B2632A78ECDF0056E862 /* FirebaseRemoteConfigSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D9B0B25A2A78ECDF0056E862 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseRemoteConfigSwift;
+			package = D90D02852A8CE7AB00199DA8 /* XCRemoteSwiftPackageReference "LAModule" */;
+			productName = LAModule;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
