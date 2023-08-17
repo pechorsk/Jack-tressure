@@ -98,7 +98,7 @@ extension LAUnity: UnityFrameworkListener {
     public func unityDidUnload(_ notification: Notification!) {
         ufw?.unregisterFrameworkListener(self)
         ufw = nil
-        hostMainWindow?.makeKeyAndVisible()
+        //hostMainWindow?.makeKeyAndVisible()
     }
 }
 
