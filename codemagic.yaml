@@ -3,7 +3,7 @@ workflows:
     name: iOS Workflow
     max_build_duration: 120
     integrations:
-      app_store_connect: "Corp 5"
+      app_store_connect: "corp 4"
     environment:
       xcode: 14.2
       groups:
