@@ -4,13 +4,13 @@ workflows:
     instance_type: mac_mini_m1
     max_build_duration: 120
     integrations:
-      app_store_connect: GoldSlotsAPIKey
+      app_store_connect: corp 3
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.zeefun.goldenslots
+        bundle_identifier: com.app.jackslots
       groups:
-        - unity_credentials
+        - DEFAULT
       vars:
         UNITY_VERSION: 2021.3.15f1
         UNITY_VERSION_CHANGESET: e8e88683f834
@@ -18,7 +18,7 @@ workflows:
         UNITY_IOS_DIR: ios
         XCODE_PROJECT: "Unity-iPhone.xcodeproj"
         XCODE_SCHEME: "Unity-iPhone"
-        APP_STORE_APP_ID: 6450305857
+        APP_STORE_APP_ID: 6462696959
       cocoapods: default
     scripts:
       - name: Retrieve Used Unity Version
