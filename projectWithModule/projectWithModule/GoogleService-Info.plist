@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>478545803191-pplpoirptp0sonu1rtudnpbm6h5s4tc2.apps.googleusercontent.com</string>
+	<string>1089944429583-2s242lvjmuse03o3gd7pqp98jqgodgo5.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.478545803191-pplpoirptp0sonu1rtudnpbm6h5s4tc2</string>
+	<string>com.googleusercontent.apps.1089944429583-2s242lvjmuse03o3gd7pqp98jqgodgo5</string>
 	<key>API_KEY</key>
-	<string>AIzaSyA7ChbFcTSRUWK3MkVVPL1rSIzwzn0CLgw</string>
+	<string>AIzaSyB5iEoiMk-RXkmpCCE2D_uyAFVbtjVygDw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>478545803191</string>
+	<string>1089944429583</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.zeefun.goldenslots</string>
+	<string>com.app.jackslots</string>
 	<key>PROJECT_ID</key>
-	<string>golden-slots-877ed</string>
+	<string>jack-treasure-slots</string>
 	<key>STORAGE_BUCKET</key>
-	<string>golden-slots-877ed.appspot.com</string>
+	<string>jack-treasure-slots.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:478545803191:ios:6ed615ed32b0b5aaeb5a32</string>
+	<string>1:1089944429583:ios:fe3d9ebaede0255350ef7a</string>
 </dict>
 </plist>

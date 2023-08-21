@@ -14,9 +14,11 @@
 		</dict>
 	</array>
 	<key>FacebookAppID</key>
-	<string>989222735538623</string>
+	<string>606424655004981</string>
 	<key>FacebookClientToken</key>
-	<string>2f71cbe39e8228ba04481acb8875c400</string>
+	<string>104db3d464d19dce243b89991f50beb2</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>

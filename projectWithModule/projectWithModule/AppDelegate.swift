@@ -45,10 +45,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 extension AppDelegate:LAConfigurationKeysProtocol  {
     func DontForgetIncludeFBKeysInInfo() -> LAModule.LAConfigurationKeys {
         return LAModule.LAConfigurationKeys(
-            appsFlyerDevKey: "hxEiGXhSZtjMoyqM8R566T",
-            appleAppID: "6462151747",
-            oneSignalAppId: "3f4154df-8be4-4066-9871-99c29cb1be21",
-            tikTokKeys: (TTAppId: "989222735538623", TTAppSecret: "2f71cbe39e8228ba04481acb8875c400"),
+            appsFlyerDevKey: "cvfFBQLVagfY3WrTi3LsvA",
+            appleAppID: "6462696959",
+            oneSignalAppId: "ae6c621f-4cd2-49ac-bb18-8d1b50d8d619",
+            tikTokKeys: (TTAppId: "7269656196985047046", TTAppSecret: "MlWhJOxVCgG6IDeQwMyQmQBSAWPir4ob"),
             remoteConfigKeys: (remoteTargetKey: "settingsKey", remoteLKey: "L")
         )
     }
